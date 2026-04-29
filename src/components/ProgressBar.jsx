@@ -9,11 +9,7 @@ export default function ProgressBar() {
       </div>
 
       {arr.map((element, elementIndex) => {
-        return (
-          <div className="level-bar" key={elementIndex}>
-            {element}
-          </div>
-        );
+        return <div className="level-bar" key={elementIndex}></div>;
       })}
       <div className="xp" style={{ width: `${40}%` }}></div>
     </div>
